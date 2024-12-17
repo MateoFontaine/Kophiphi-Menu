@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: white;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header a img {
+    width: 15rem;
+    margin-top: 1rem;
+}
+
+h2 {
+    font-family: "Just Another Hand", cursive;
+}
+
+.menu {
+    margin: 1rem;
+}
+
+.acordion {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+
+.titulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    cursor: pointer;
+    background-color: #f7f7f7;
+}
+
+.titulo h2 {
+    font-size: 1.2rem;
+}
+
+.icono-flecha {
+    transition: transform 0.3s ease;
+}
+
+.icono-flecha.girar {
+    transform: rotate(90deg);
+}
+
+.contenido {
+    display: none;
+    padding: 10px 20px;
+    background-color: #fff;
+}
+
+.plato {
+    padding: 10px 0;
+}
+
+.nombrePrecio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nombrePrecio p {
+    font-weight: bold;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #ddd;
+    margin: 10px 0;
+}
